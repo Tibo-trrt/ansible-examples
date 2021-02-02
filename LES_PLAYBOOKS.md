@@ -115,7 +115,7 @@ copier le code suivant
 Dans  example-role/github.role/defaults/main.yml
 ```yaml
 # default file for github.role
-git_key: d6f90b4be8axxxxxxxxxxxxxxx
+git_key: 2d689232afc003c3edd5af4ffdd4e85f8c273843
 ```
 Dans votre directory example-role, faire un 
 ```shell script
@@ -127,7 +127,7 @@ Tapez la commande suivante:
 
 ## Ansible Vault
 Nous allons voir comment crypter nos informations sensibles avec Ansible
-Crypter la variable token dans votre projet example defaults/main.yml  
+Crypter la variable token dans votre projet example github.role/defaults/main.yml  
 Tapez  
 ```ansible-vault encrypt  main.yml```   
 entrez votre mot de passe   
